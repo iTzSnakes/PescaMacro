@@ -1,0 +1,11 @@
+$${
+    if(%itemDurability% < 100);
+         echo(/fix);
+         log(&4&l---------------------);
+         log(&3&lItem reparado);
+         log(&3&lMacro by Smokee);
+         log(&4&l---------------------);
+         wait(5)
+    endif;
+
+}$$
